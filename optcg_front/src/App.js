@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Header, Footer } from './components';
 import { Home, AllCard, MyCard } from './pages';
 import './App.css';
+import './fonts/animeace.ttf';
 
 function App() {
   return (
