@@ -11,7 +11,7 @@ function App() {
     <Router>
       <>
       <Header />
-      <main>
+      <main className='backGround'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/allCard' element={<AllCard />} />

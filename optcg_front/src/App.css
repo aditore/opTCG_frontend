@@ -16,4 +16,55 @@
 
 * {
   font-family: "onePiece";
+  margin: 0;
 }
+
+body {
+  background: url('./images/png/opTCG_background.png') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+main {
+  min-height: calc(100vh - 70px);
+}
+
+
+/* HEADER AND FOOTER */
+
+.optcgTitle, .optcgFooter {
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+}
+
+/* SIDE NAV */
+
+.sideNavWrapper, .sideNavBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: brown;
+  border-radius: 50%;
+  top: 25%;
+  left: 0;
+  width: 15%;
+  height: 30%;
+  padding: 20px 0;
+  
+  
+}
+
+/* Need to change class names */
+.ul {
+  list-style: none;
+}
+
+ul, li, a{
+  color: white;
+  display: block;
+  padding: 13px 30px;
+  font-size: 16px;
+  position: relative;
+}
+/* End region of class names needed to be added */
