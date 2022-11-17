@@ -1,8 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function AllCard() {
     return (
-        <div>FILLER</div>
+        <ul>
+            <li>
+                <Link to="/">
+                    HOME
+                </Link>
+            </li>
+            <li>
+                <Link to="/myCard">
+                    MY CARDS
+                </Link>
+            </li>
+        </ul>
     )
 }
 
