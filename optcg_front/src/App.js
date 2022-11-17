@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { Header, Footer } from './components';
-import { Home } from './pages';
+import { Home, AllCard, MyCard } from './pages';
 import './App.css';
 
 function App() {
@@ -12,7 +12,9 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path='/' element={<Home />} />  
+          <Route path='/' element={<Home />} />
+          <Route path='/allCard' element={<AllCard />} />
+          <Route path='/myCard' element={<MyCard />} />  
         </Routes>  
       </main>
       <Footer />
