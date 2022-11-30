@@ -1,9 +1,12 @@
 import React from "react";
-import { Select } from "../components";
+import { Select, News } from "../components";
 
 function Home() {
     return(
-        <Select />
+        <>
+            <Select />
+            <News />
+        </>
     )
 }
 

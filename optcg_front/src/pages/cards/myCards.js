@@ -5,7 +5,7 @@ function MyCard() {
     return (
         <ul>
             <li>
-                <Link to="/myCard">
+                <Link to="/">
                     HOME
                 </Link>
             </li>
